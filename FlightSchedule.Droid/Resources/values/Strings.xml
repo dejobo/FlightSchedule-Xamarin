@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Flight Schedule</string>
+  <string name="Origin">Origin</string>
+  <string name="Destination">Destination</string>
+  <string name="FlightDate">Flight Date</string>
+  <string name="Find">Find</string>
+  <string name="FlightNumberLabel">Flight Number:</string>
+  <string name="DepartureTimeLabel">Departure Time:</string>
+  <string name="ArrivalTimeLabel">Arrival Time:</string>
+</resources>

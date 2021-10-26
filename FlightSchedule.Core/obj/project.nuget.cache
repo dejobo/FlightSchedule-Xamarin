@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "osxpp0ah8tFPN7M0wuo1ZLR3CaQ1xEL2GmQD4MDN3to1V2Rk3CV7nLAF12Af3H2rsBW5KFnPmYlZErGzOcq2GA==",
+  "success": true,
+  "projectFilePath": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/FlightSchedule.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/micsoftware/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/micsoftware/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/micsoftware/.nuget/packages/mvvmcross/8.0.1/mvvmcross.8.0.1.nupkg.sha512",
+    "/Users/micsoftware/.nuget/packages/mvvmcross.plugin.visibility/8.0.1/mvvmcross.plugin.visibility.8.0.1.nupkg.sha512",
+    "/Users/micsoftware/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/micsoftware/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/micsoftware/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

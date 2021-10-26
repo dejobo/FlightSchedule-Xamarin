@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{61343446-D796-4161-8185-0A19C114245D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlightSchedule.Core/ViewModels/FlightsViewModel.cs">
+    <Files>
+      <File FileName="FlightSchedule.UnitTest/FlightsData.txt" Line="1" Column="1" />
+      <File FileName="FlightSchedule.UnitTest/FlightsViewModelUnitTest.cs" Line="1" Column="1" />
+      <File FileName="FlightSchedule.Core/Services/FlightScheduleService.cs" Line="33" Column="1" />
+      <File FileName="FlightSchedule.Droid/Views/FlightsView.cs" Line="1" Column="1" />
+      <File FileName="FlightSchedule.Core/ViewModels/Items/FlightItemViewModel.cs" Line="1" Column="1" />
+      <File FileName="FlightSchedule.Core/ViewModels/FlightsViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FlightSchedule" expanded="True">
+            <Node name="FlightSchedule.Core" expanded="True">
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="Items" expanded="True" />
+                <Node name="FlightsViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="FlightSchedule.UnitTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FlightSchedule.Droid PreferredExecutionTarget="Android.Pixel_C_API_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

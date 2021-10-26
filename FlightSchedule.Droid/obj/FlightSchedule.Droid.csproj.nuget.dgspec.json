@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/FlightSchedule.Droid.csproj": {}
+  },
+  "projects": {
+    "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/FlightSchedule.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/FlightSchedule.Core.csproj",
+        "projectName": "FlightSchedule.Core",
+        "projectPath": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/FlightSchedule.Core.csproj",
+        "packagesPath": "/Users/micsoftware/.nuget/packages/",
+        "outputPath": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/micsoftware/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MvvmCross.Plugin.Visibility": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/FlightSchedule.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/FlightSchedule.Droid.csproj",
+        "projectName": "FlightSchedule.UI.Droid",
+        "projectPath": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/FlightSchedule.Droid.csproj",
+        "packagesPath": "/Users/micsoftware/.nuget/packages/",
+        "outputPath": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/micsoftware/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/FlightSchedule.Core.csproj": {
+                "projectPath": "/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/FlightSchedule.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MvvmCross.Plugin.Visibility": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Xamarin": {
+              "target": "Package",
+              "version": "[0.2.0.64, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

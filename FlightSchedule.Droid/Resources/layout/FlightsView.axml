@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/Origin" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLength="3"
+            android:textAllCaps="true"
+            android:inputType="textCapCharacters"
+            local:MvxBind="Text Origin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:text="@string/Destination" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLength="3"
+            android:textAllCaps="true"
+            android:inputType="textCapCharacters"
+            local:MvxBind="Text Destination" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:text="@string/FlightDate" />
+        <EditText
+            android:id="@+id/flightDateEditText" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:clickable="false" 
+            android:cursorVisible="false" 
+            android:focusable="false" 
+            android:focusableInTouchMode="false"
+            android:textSize="16sp"
+            local:MvxBind="Text FlightDate" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textSize="16sp"
+            android:text="@string/Find"
+            local:MvxBind="Click FindCommand"/>
+
+        <Mvx.MvxListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            local:MvxItemTemplate="@layout/flightitem"
+            local:MvxBind="ItemsSource Flights"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlur"
+        local:MvxBind="Visibility Visibility(IsBusy)">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleLarge"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

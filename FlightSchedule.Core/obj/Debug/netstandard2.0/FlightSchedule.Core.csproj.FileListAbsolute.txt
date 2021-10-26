@@ -1,0 +1,10 @@
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/bin/Debug/netstandard2.0/FlightSchedule.Core.deps.json
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/bin/Debug/netstandard2.0/FlightSchedule.Core.dll
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/bin/Debug/netstandard2.0/FlightSchedule.Core.pdb
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.csproj.AssemblyReference.cache
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.AssemblyInfoInputs.cache
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.AssemblyInfo.cs
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.csproj.CoreCompileInputs.cache
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.dll
+/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Core/obj/Debug/netstandard2.0/FlightSchedule.Core.pdb

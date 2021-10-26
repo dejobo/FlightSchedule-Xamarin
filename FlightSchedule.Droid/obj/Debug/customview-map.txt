@@ -1,0 +1,23 @@
+attr;/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+Button;obj/Debug/res/layout/flightsview.xml
+color;obj/Debug/res/values/colors.xml
+declare-styleable;/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+EditText;obj/Debug/res/layout/flightsview.xml
+item;/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/Debug/lp/0/jl/res/values/ids.xml
+item;/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+item;obj/Debug/res/values/styles.xml
+LinearLayout;obj/Debug/res/layout/flightitem.xml
+LinearLayout;obj/Debug/res/layout/flightsview.xml
+LinearLayout;obj/Debug/res/layout/splashscreen.xml
+Mvx.MvxListView;obj/Debug/res/layout/flightsview.xml
+ProgressBar;obj/Debug/res/layout/flightsview.xml
+RelativeLayout;obj/Debug/res/layout/flightsview.xml
+resources;/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/Debug/lp/0/jl/res/values/ids.xml
+resources;/Users/micsoftware/Downloads/FlightSchedule 2/FlightSchedule.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+resources;obj/Debug/res/values/colors.xml
+resources;obj/Debug/res/values/strings.xml
+resources;obj/Debug/res/values/styles.xml
+string;obj/Debug/res/values/strings.xml
+style;obj/Debug/res/values/styles.xml
+TextView;obj/Debug/res/layout/flightitem.xml
+TextView;obj/Debug/res/layout/flightsview.xml
